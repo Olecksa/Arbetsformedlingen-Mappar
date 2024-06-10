@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="modal.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <title>Sök kandidater</title>
+  </head>
+  <body>
+    <header>
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">
+        <img
+          id="logo"
+          src="arbetsformedlingen.png"
+          alt="Arbetsförmedlingens logotyp transparent"
+      /></label>
+      <ul>
+        <li>
+          <a class="active" href="/logga"
+            ><i class="fa fa- fa fa-user"></i> <span>Logga in</span></a
+          >
+        </li>
+        <li>
+          <a href="/languages"
+            ><i class="fa fa-sign-language"></i> Other languages</a
+          >
+        </li>
+        <li>
+          <a href="/sok"><i class="fa fa-search"></i> Sök</a>
+        </li>
+        <li>
+          <a href="/menu"><i class="fa fa-navicon"></i> Meny</a>
+        </li>
+      </ul>
+    </header>
+
+    <div class="tts">
+      <i class="fas fa-angle-left"> Tillbaka till sökning</i>
+    </div>
+    <div class="sk">Sparade kandidater</div>
+    <div class="asp">Antal sparade kandidater: 23 st</div>
+
+    <button id="modal-btn">Skapa en ny mapp <i class="fa fa-plus"></i></button>
+    <div class="modal">
+      <div class="modal-content">
+        <span class="close-btn">Stäng &times;</span>
+        <h3>Skapa en ny mapp</h3>
+
+        <form>
+          <input type="text" id="mapp" mapp="Skapa" />
+        </form>
+        <a href="#" class="bnt-skapa">Skapa</a>
+        <a href="#" class="bnt-avbryt">Avbryt</a>
+      </div>
+    </div>
+
+    <button class="minamappar">
+      Mina mappar <i class="fa fa-angle-up"></i>
+    </button>
+    <div class="alfabetisk"></div>
+    <button class="btn-alfabetisk">
+      Sortera alfabetisk <i class="fas fa-angle-down"></i>
+    </button>
+    <div class="sam">Skapad antal mappar: 3 av 20</div>
+
+    <div class="grid-mappar">
+      <div class="grid-mapp">
+        <h4>Senior UX/UI Designer i Lund</h4>
+        <p>155 kandidater &nbsp; &nbsp;&nbsp; Sparad: 2024-05-30</p>
+      </div>
+      <div class="grid-mapp">
+        <h4>Betonarbetare i Härryda Kommun</h4>
+
+        <p>105 kandidater&nbsp; &nbsp;&nbsp; Sparad: 2024-05-30</p>
+      </div>
+      <div class="grid-mapp">
+        <h4>Sommarjobb till Godisfabriken i Uppsala</h4>
+        <p>89 kandidater &nbsp; &nbsp;&nbsp; Sparad: 2024-05-30</p>
+      </div>
+    </div>
+
+    <button class="btn-sortera">
+      Sortera efter när profilen sparats <i class="fas fa-angle-down"></i>
+    </button>
+
+    <div class="markera">
+      <i class="fa fa-check-square"></i>&nbsp; &nbsp;&nbsp; Markera alla
+      profiler &nbsp; &nbsp; &nbsp; Flytta till mapp
+      <i class="fas fa-angle-down"></i>
+    </div>
+
+    <div class="grid-container">
+      <div class="grid-item">
+        <i class="fa fa-check-square"></i>&nbsp; &nbsp;&nbsp; Grym UX Designer
+        med erfarenhet av e-handel
+      </div>
+      <div class="grid-item">
+        <i class="fa fa-check-square"></i>&nbsp; &nbsp;&nbsp; Avpublicerad
+        profil
+      </div>
+      <div class="grid-item">
+        <i class="fa fa-check-square"></i>&nbsp; &nbsp;&nbsp; Grym UX Designer
+        med erfarenhet av e-handel
+      </div>
+      <div class="grid-item">
+        <i class="fa fa-check-square"></i>&nbsp; &nbsp;&nbsp; Grym UX Designer
+        med erfarenhet av e-handel
+      </div>
+      <div class="grid-item">
+        <i class="fa fa-check-square"></i>&nbsp; &nbsp;&nbsp; Grym UX Designer
+        med erfarenhet av e-handel
+      </div>
+      <div class="grid-item">
+        <i class="fa fa-check-square"></i>&nbsp; &nbsp;&nbsp; Avpublicerad
+        profil med erfarenhet av e-handel
+      </div>
+      <div class="grid-item">
+        <i class="fa fa-check-square"></i>&nbsp; &nbsp;&nbsp; Grym UX Designer
+        med erfarenhet av e-handel
+      </div>
+      <div class="grid-item">
+        <i class="fa fa-check-square"></i>&nbsp; &nbsp;&nbsp; Grym UX Designer
+        med erfarenhet av e-handel
+      </div>
+    </div>
+
+    <div class="pagination">
+      <a href="#"><i class="fas fa-angle-left"></i> Förregående</a>
+      <a href="#">1</a>
+      <a class="active" href="#">2</a>
+      <a href="#">3</a>
+      <a href="#">Nästa <i class="fas fa-angle-right"></i></a>
+    </div>
+
+    <div class="visar">Visar <b>16</b> av <b>23</b> sparade kandidater</div>
+
+    <div class="footer">
+      <img
+        id="transparentlogo"
+        src="arbetsformedlingen_transparent.png"
+        alt="Arbetsförmedlingens logotyp transparent"
+      />
+      <div class="info"></div>
+    </div>
+
+    <script type="module" src="modal.js"></script>
+  </body>
+</html>
