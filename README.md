@@ -2,7 +2,8 @@
 
 # Project Title
 
-A brief description of what this project does and who it's for. Test
+This study focuses on improving the recruitment process for employers by introducing a folder function in the candidate search service of a Swedish employment platform. It aims to improve the retained candidates available in management. By providing tools to create, name and sort candidates into folders, the goal is to improve the recruiting process for employers and save valuable time and resources.
+
 
 ## About The Project
 
