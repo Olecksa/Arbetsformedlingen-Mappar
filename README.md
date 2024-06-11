@@ -10,8 +10,6 @@ This study focuses on improving the recruitment process for employers by introdu
 ![Project Screenshot](./mobil.png)
 ![Project Screenshot](./desktop.png)
 
-Here you can include a detailed description of your project. Explain what it achieves, why it is useful, and any unique features it might have.
-
 ## Built With
 
 - HTML
